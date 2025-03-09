@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro Centenario - Expediente Talleres</title>
+    <link rel="stylesheet" href="centenario.css">
+    <link rel="icon" href="../../Recursos/escudo.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js" integrity="sha512-..."></script>
+</head>
+<body>
+    <div class="box">
+        <img src="../../Recursos/escudo.png" alt="Escudo de Talleres" class="escudo">
+    </div>
+    <nav class="nav">
+        <div class="nav__ul-container">
+            <ul class="nav__ul">
+                <li class="nav__item"><a href="../../index.html" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="../../All_Campañas/campañas.html" class="nav__link">Campañas</a></li>
+                <li class="nav__item"><a href="../../All_historiales/historial.html" class="nav__link">Historiales</a></li>
+                <li class="nav__item"><a href="../../Album/Album.html" class="nav__link">Álbum</a></li>
+                <li class="nav__item"><a href="../../All_presidentes/presidentes.html" class="nav__link">Presidentes</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Recaudaciones</a></li>
+                <li class="nav__item"><a href="../../Idolos/idolos.html" class="nav__link">Idolos</a></li>
+                <li class="nav__item"><a href="../archivo.html" class="nav__link">Archivo</a></li>
+                <li class="nav__item"><a href="../../Log In xd/templates/login.html" class="nav__link link--login">Iniciar sesión</a></li>
+                <li class="nav__item"><a href="../../Log In xd/templates/registro.html" class="nav__link link--login">Registrarse</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="libros-talleres">
+        <h2>Libro Centenario</h2>
+        <div id="pdf-viewer">
+            <canvas id="pdf-canvas"></canvas>
+            <div id="pdf-controls">
+                <button id="prev-page"><span class="material-symbols-outlined">chevron_left</span></button>
+                <span id="page-num">Página 1</span>
+                <button id="next-page"><span class="material-symbols-outlined">chevron_right</span></button>
+            </div>
+        </div>
+    </section>
+
+    <script src="centenario.js"></script>
+</body>
+</html>

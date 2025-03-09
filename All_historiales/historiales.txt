@@ -1,0 +1,214 @@
+<thead>
+                    <tr>
+                        <th></th>
+                        <th>Jugados</th>
+                        <th class="cab">Belgrano</th>
+                        <th class="emp">Empates</th>
+                        <th class="cat">Talleres</th>
+                        <th>Diferencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amistosos</td>
+                        <td>147</td>
+                        <td>57</td>
+                        <td>52</td>
+                        <td>38</td>
+                        <td class="cab">19</td>
+                    </tr>
+                    <tr>
+                        <td>Liga Cordobesa</td>
+                        <td>191</td>
+                        <td>56</td>
+                        <td>56</td>
+                        <td>79</td>
+                        <td class="cat">23</td>
+                    </tr>
+                    <tr>
+                        <td>Copas LCF</td>
+                        <td>21</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>6</td>
+                        <td class="cab">2</td>
+                    </tr>
+                    <tr>
+                        <td>Unión Cordobesa</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="cab">2</td>
+                    </tr>
+                    <tr>
+                        <td>Primera</td>
+                        <td>24</td>
+                        <td>5</td>
+                        <td>14</td>
+                        <td>5</td>
+                        <td class="emp">0</td>
+                    </tr>
+                    <tr>
+                        <td>B Nacional</td>
+                        <td>16</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>5</td>
+                        <td class="emp">0</td>
+                    </tr>
+                    <tr>
+                        <td>Copa Argentina</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td class="cat">1</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Total AFA</td>
+                        <td>41</td>
+                        <td>10</td>
+                        <td>20</td>
+                        <td>11</td>
+                        <td class="cat">1</td>
+                    </tr>
+                    <tr>
+                        <td>Total Oficiales</td>
+                        <td>255</td>
+                        <td>76</td>
+                        <td>83</td>
+                        <td>96</td>
+                        <td class="cat">20</td>
+                    </tr>
+                    <tr>
+                        <td>TOTAL FINAL</td>
+                        <td>402</td>
+                        <td>133</td>
+                        <td>135</td>
+                        <td>134</td>
+                        <td class="cat">1</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>PJ</td>
+                        <td class="cab">GB</td>
+                        <td class="emp">PE</td>
+                        <td class="cat">GT</td>
+                        <td>Diferencia</td>
+                    </tr>
+                </tfoot>
+
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Jugados</th>
+                        <th class="iacc">Insitituto</th>
+                        <th class="emp">Empates</th>
+                        <th class="cat">Talleres</th>
+                        <th>Diferencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amistosos</td>
+                        <td>80</td>
+                        <td>23</td>
+                        <td>20</td>
+                        <td>37</td>
+                        <td class="cat">14</td>
+                    </tr>
+                    <tr>
+                        <td>Liga Cordobesa</td>
+                        <td>170</td>
+                        <td>45</td>
+                        <td>35</td>
+                        <td>90</td>
+                        <td class="cat">45</td>
+                    </tr>
+                    <tr>
+                        <td>Copas LCF</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td class="iacc">1</td>
+                    </tr>
+                    <tr>
+                        <td>Provinciales</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="iacc">1<tdd>
+                    </tr>
+                    <tr>
+                        <td>Primera</td>
+                        <td>31</td>
+                        <td>11</td>
+                        <td>8</td>
+                        <td>12</td>
+                        <td class="cat">1</td>
+                    </tr>
+                    <tr>
+                        <td>B Nacional</td>
+                        <td>20</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>8</td>
+                        <td class="emp">0</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Total AFA</td>
+                        <td>51</td>
+                        <td>19</td>
+                        <td>12</td>
+                        <td>20</td>
+                        <td class="cat">1</td>
+                    </tr>
+                    <tr>
+                        <td>Total Oficiales</td>
+                        <td>226</td>
+                        <td>66</td>
+                        <td>48</td>
+                        <td>112</td>
+                        <td class="cat">46</td>
+                    </tr>
+                    <tr>
+                        <td>TOTAL FINAL</td>
+                        <td>305</td>
+                        <td>89</td>
+                        <td>67</td>
+                        <td>149</td>
+                        <td class="cat">60</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>PJ</td>
+                        <td class="iacc">GI</td>
+                        <td class="emp">PE</td>
+                        <td class="cat">GT</td>
+                        <td>Diferencia</td>
+                    </tr>
+                </tfoot>
+            </table>

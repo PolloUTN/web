@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum - Expediente Talleres</title>
+    <link rel="stylesheet" href="Album.css">
+    <link rel="icon" href="../Recursos/escudo.png" type="image/png">
+    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+</head>
+<body>
+    <div class="box">
+        <img src="../Recursos/escudo.png" alt="Escudo de Talleres" class="escudo">
+    </div>
+    <nav class="nav">
+        <div class="nav__ul-container">
+            <ul class="nav__ul">
+                <li class="nav__item"><a href="../index.html" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="../All_Campañas/campañas.html" class="nav__link">Campañas</a></li>
+                <li class="nav__item"><a href="../All_historiales/historial.html" class="nav__link">Historiales</a></li>
+                <li class="nav__item"><a href="../Album/Album.html" class="nav__link">Álbum</a></li>
+                <li class="nav__item"><a href="../All_presidentes/presidentes.html" class="nav__link">Presidentes</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Recaudaciones</a></li>
+                <li class="nav__item"><a href="../Idolos/idolos.html" class="nav__link">Idolos</a></li>
+                <li class="nav__item"><a href="../Archivo/archivo.html" class="nav__link">Archivo</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Álbum de Fotos (1913-2025)</h1>
+        <div class="search-container">
+            <input type="number" id="yearSearch" min="1913" max="2025" placeholder="Buscar año...">
+            <button id="searchButton">Buscar</button>
+        </div>
+        <div class="folders-container">
+            <button class="folder" data-decade="1910">1910s</button>
+            <button class="folder" data-decade="1920">1920s</button>
+            <button class="folder" data-decade="1930">1930s</button>
+            <button class="folder" data-decade="1940">1940s</button>
+            <button class="folder" data-decade="1950">1950s</button>
+            <button class="folder" data-decade="1960">1960s</button>
+            <button class="folder" data-decade="1970">1970s</button>
+            <button class="folder" data-decade="1980">1980s</button>
+            <button class="folder" data-decade="1990">1990s</button>
+            <button class="folder" data-decade="2000">2000s</button>
+            <button class="folder" data-decade="2010">2010s</button>
+            <button class="folder" data-decade="2020">2020s</button>
+            <button id="showAllYears" class="folder">Ver todos los años</button>
+        </div>
+        <div id="yearContainer" class="year-container"></div>
+        <div id="photoContainer" class="photo-container"></div>
+        <div id="photoModal" class="modal">
+            <div class="modal-content">
+                <img id="modalImage" class="modal-image" src="" alt="Foto ampliada">
+                <div class="modal-description">
+                    <p id="modalDescription">Descripción de la foto.</p>
+                </div>
+                <button class="close-button" id="closeModal">Cerrar</button>
+            </div>
+        </div>
+        <script src="Album.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo - Expediente Talleres</title>
+    <link rel="stylesheet" href="archivo.css">
+    <link rel="icon" href="../Recursos/escudo.png" type="image/png">
+    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+    <div class="box">
+        <img src="../Recursos/escudo.png" alt="Escudo de Talleres" class="escudo">
+    </div>
+    <nav class="nav">
+        <div class="nav__ul-container">
+            <ul class="nav__ul">
+                <li class="nav__item"><a href="../index.html" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="../All_Campañas/campañas.html" class="nav__link">Campañas</a></li>
+                <li class="nav__item"><a href="../All_historiales/historial.html" class="nav__link">Historiales</a></li>
+                <li class="nav__item"><a href="../Album/Album.html" class="nav__link">Álbum</a></li>
+                <li class="nav__item"><a href="../All_presidentes/presidentes.html" class="nav__link">Presidentes</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Recaudaciones</a></li>
+                <li class="nav__item"><a href="../Idolos/idolos.html" class="nav__link">Idolos</a></li>
+                <li class="nav__item"><a href="./archivo.html" class="nav__link">Archivo</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Biblioteca Digital</h1>
+        <div class="folders">
+            <div class="folder" data-category="libros">
+                <span class="material-symbols-outlined">book_2</span>
+                <span>Libros de Talleres</span>
+            </div>
+            <div class="folder" data-category="El Grafico">
+                <span class="material-symbols-outlined">book_2</span>
+                <span>El Gráfico</span>
+            </div>
+            <div class="folder" data-category="La Voz">
+                <span class="material-symbols-outlined">volume_up</span>
+                <span>Discos</span>
+            </div>
+            <div class="folder" data-category="Los Principios">
+                <span class="material-symbols-outlined">menu_book</span>
+                <span>Los Principios</span>
+            </div>
+            <div class="folder" data-category="La Voz">
+                <span class="material-symbols-outlined">menu_book</span>
+                <span>La Voz del Interior</span>
+            </div>
+        </div>
+        <div id="book-list" class="book-list hidden">
+            <button id="back-button" class="back-button">
+                <img src="https://api.iconify.design/lucide:arrow-left.svg" alt="Back arrow">
+                Volver a la página principal
+            </button>
+            <h2 id="category-title"></h2>
+            <div id="books"></div>
+        </div>
+    </div>
+    <script src="archivo.js"></script>
+</body>
+</html>
